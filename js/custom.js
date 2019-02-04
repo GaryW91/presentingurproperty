@@ -112,3 +112,11 @@ $(document).ready(function() {
 	});
 });
 /*============ END OF TOP SCROLL ============*/
+
+/*============ RESET TO TOP OF PAGE AFTER REFRESH ============*/
+
+$(window).on('beforeunload', function() {
+   $(window).scrollTop(0);
+});
+
+/*============ END OF RESET TO TOP OF PAGE AFTER REFRESH ============*/

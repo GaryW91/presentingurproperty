@@ -183,7 +183,7 @@ h3.heading{
 /*============ FIXED BACKGROUND IMAGE DARK ============*/
 
 #fixed{
-	background-image: url('img/fixed/apple.png');
+	background-image: url('img/fixed/sofa.png');
 	z-index: -1;
 }
 
@@ -393,8 +393,8 @@ footer .row{
 }
 
 footer img{
-	height: 2rem;
-	margin: 1.5rem 0;
+	height: 5rem;
+	margin: .8rem 0;
 }
 
 footer a{
@@ -516,7 +516,7 @@ a.top-scroll:hover{
 	}
 
 	#fixed{
-	background-image: url('img/fixed/apple-mobile.png');
+	background-image: url('img/fixed/sofa-mobile.png');
 	}
 
 	#fixed-2{
