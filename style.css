@@ -429,7 +429,7 @@ footer h3{
 	font-size: 1.1rem;
 }
 
-.form-group input::placeholder, .form-group textarea::placeholder {
+.form-group input::placeholder, .form-group textarea::placeholder, .form-group select {
 	color: #b2b5b8!important;
 }
 
