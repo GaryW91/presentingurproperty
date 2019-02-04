@@ -21,6 +21,7 @@ body {
 /*- Adds spacing to all classes beginning with... -*/
 [class*="col-"] {
 	padding: 1rem;
+	overflow-x: hidden;
 }
 
 .row {
