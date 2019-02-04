@@ -11,8 +11,8 @@ body {
 /*height and content create the buffer but add whitespace. margin-top removes the whitespace but scrolls to same spot*/
 
 .offset:before {
-	height: 4rem;
-	margin-top:-4rem;
+	height: 6rem;
+	margin-top:-6rem;
 	content: "";
 	display: block;
 }
@@ -36,7 +36,7 @@ body {
 
 
 .navbar-brand img{
-	height: 2rem;
+	height: 4rem;
 }
 
 .svg-inline--fa.fa-w-14{
@@ -55,7 +55,7 @@ body {
 
 .navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover{
-	color: #1ebba3;
+	color: #3590D5;
 }
 
 .navbar.solid {
@@ -65,7 +65,7 @@ body {
 
 /*============ LANDING PAGE ============*/
 .home-inner{
-	background-image: url('img/computers.png');
+	background-image: url('img/house-staging.png');
 }
 
 
@@ -125,8 +125,8 @@ body {
 }
 
 .btn-torquoise{
-	border-color: #1ebba3;
-	background-color: #1ebba3;
+	border-color: #3590D5;
+	background-color: #3590D5;
 	color: white;
 }
 
@@ -153,7 +153,7 @@ h3.heading{
 .heading-underline{
 	width:3rem;
 	height:.2rem;
-	background-color: #1ebba3;
+	background-color: #3590D5;
 	margin: 0 auto;
 	margin-bottom: 2rem;
 }
@@ -163,7 +163,7 @@ h3.heading{
 }
 
 .feature .fa-layers{
-	color: #1ebba3;
+	color: #3590D5;
 	height: 6rem;
 	margin: 0 auto;
 	width: 3.9rem;
@@ -233,7 +233,7 @@ img.example-image{
 .pricing-column{
 	background-color: white;
 	padding: 2rem;
-	border-top: .2rem solid #1ebba3;
+	border-top: .2rem solid #3590D5;
 	box-shadow: 0 0 0.8rem rgba(0, 0, 0, 0.075);
 	transition: transform .7s ease;
 	overflow: hidden;
@@ -316,7 +316,7 @@ img.example-image{
 }
 
 .card h5{
-	color: #1ebba3;
+	color: #3590D5;
 }
 
 .card p{
@@ -327,7 +327,7 @@ img.example-image{
 }
 
 .card svg.svg-inline--fa{
-	color: #1ebba3!important;
+	color: #3590D5!important;
 	font-size: 1.3rem;
 	width: 2rem;
 }
@@ -338,13 +338,13 @@ img.example-image{
 
 .owl-dot.active span,
 .owl-dot:hover span{
-	background: #1ebba3!important;
+	background: #3590D5!important;
 }
 
 /*============ SKILLS SECTION ============*/
 
 .skill h3{
-	color: #1ebba3;
+	color: #3590D5;
 	font-size: 2.5rem;
 	font-weight: 700;
 	margin: 1rem 0 .5rem;
@@ -370,13 +370,198 @@ img.example-image{
 
 blockquote .svg-inline--fa {
 	margin: 1rem;
-	color: #1ebba3;
+	color: #3590D5;
 }
 
 
 .clients-hr{
-	border-top: .05rem solid #1ebba3;
+	border-top: .05rem solid #3590D5;
 }
+
+
+/*============ CONTACT SECTION ============*/
+
+footer {
+	background: url('img/footer/footer.png') no-repeat;
+	background-size: cover;
+}
+
+footer .row{
+	background-color: rgba(57, 63, 70, .85);
+	color: white;
+	padding: 1rem 2rem 3rem;
+}
+
+footer img{
+	height: 2rem;
+	margin: 1.5rem 0;
+}
+
+footer a{
+	color: white;
+}
+
+footer svg.svg-inline--fa{
+	font-size:1.6rem;
+	margin: 1.2rem .5rem 0 0 ;
+}
+
+footer svg.svg-inline--fa:hover{
+	color:#3590D5!important;
+}
+
+footer h3{
+	text-transform: uppercase;
+	margin: 1.5rem 0;
+}
+
+/*=== CONTACT FORM SECTION ===*/
+
+.form-group{
+	margin-bottom: 1.3rem;
+}
+
+.form-control, .form-control:focus{
+	background-color: #53595f;
+	border-radius: 0;
+	border: .15rem solid #666b71;
+	color:white!important;
+	font-size: 1.1rem;
+}
+
+.form-group input::placeholder, .form-group textarea::placeholder {
+	color: #b2b5b8!important;
+}
+
+
+input.btn {
+	cursor: pointer;
+}
+
+hr.socket{
+	border-top: .2rem solid #666b71;
+	width: 100%;
+}
+
+/*=== TOP SCROLL ===*/
+
+.top-scroll svg.svg-inline--fa{
+	font-size: 3rem;
+	height: 1.7rem;
+	color: #53595f;
+	background: white;
+}
+
+a.top-scroll {
+	right: 1.2rem;
+	bottom: 1.2rem;
+	position: fixed;
+	opacity: .3;
+	z-index: 1000;
+	display: none;
+}
+
+a.top-scroll:hover{
+	opacity: .5;
+}
+
+/*=== MEDIA QUERIES ===*/
+
+/* Devices under 992px (lg)*/
+@media (max-width: 991px) {
+	.caption h1{
+		font-size: 3.5rem;
+		letter-spacing: .2rem;
+		padding-bottom: .8rem;
+	}
+
+
+	.caption h3{
+		font-size: 2.2rem;
+		padding-bottom: 1.7rem;
+	}
+
+	.btn-lg{
+		padding: .7rem 1.2rem;
+		font-size: 1rem;
+	}
+
+	.narrow h1{
+		font-size: 2.1rem;
+	}
+}
+
+
+/* Devices under 768px (md)*/
+@media (max-width: 767px) {
+	.caption h1{
+		font-size: 2.7rem;
+		letter-spacing: .15rem;
+		padding-bottom: .5rem;
+	}
+
+
+	.caption h3{
+		font-size: 1.7rem;
+		padding-bottom: 1.2rem;
+	}
+
+	.btn-lg{
+		padding: .6rem 1.1rem;
+		font-size: 1rem;
+	}
+
+	.narrow h1{
+		font-size: 1.8rem;
+	}
+
+	#fixed{
+	background-image: url('img/fixed/apple-mobile.png');
+	}
+
+	#fixed-2{
+	background-image: url('img/fixed/office-mobile.png');
+	}
+
+	footer {
+	background: url('img/footer/footer-mobile.png') no-repeat;
+	}
+
+	.clients img{
+	max-width: 50%;
+	margin: 0 auto;
+	}
+
+	.top-scroll{
+		display: none!important;
+	}
+}
+
+
+/* Devices under 576px (sm)*/
+@media (max-width: 575px) {
+	.caption h1{
+		font-size: 1.9rem;
+		letter-spacing: .1rem;
+		padding-bottom: .4rem;
+	}
+
+
+	.caption h3{
+		font-size: 1.2rem;
+		padding-bottom: 1rem;
+	}
+
+	.btn-lg{
+		padding: .4rem .9rem;
+		font-size: .9rem;
+	}
+
+	.narrow{
+		width: 85%;
+	}
+}
+
 
 /*============ BOOTSTRAP BREAK POINTS:
 

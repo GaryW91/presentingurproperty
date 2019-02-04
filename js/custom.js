@@ -100,3 +100,15 @@ $(document).ready(function() {
 	);
 });
 /*============ END OF CLIENT CAROUSEL ============*/
+
+/*============ END OF TOP SCROLL ============*/
+$(document).ready(function() {
+	$(window).scroll(function (){
+		if ($(this).scrollTop() > 500) {
+			$('.top-scroll').fadeIn();
+		} else {
+			$('.top-scroll').fadeOut();
+		}
+	});
+});
+/*============ END OF TOP SCROLL ============*/
