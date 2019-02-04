@@ -23,6 +23,10 @@ body {
 	padding: 1rem;
 }
 
+.row {
+	overflow-x: hidden;
+}
+
 
 /*============ NAVIGATION ============*/
 .navbar {

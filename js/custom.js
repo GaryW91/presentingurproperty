@@ -115,8 +115,8 @@ $(document).ready(function() {
 
 /*============ RESET TO TOP OF PAGE AFTER REFRESH ============*/
 
-$(window).on('beforeunload', function() {
-   $(window).scrollTop(0);
+$(document).ready(function() {
+	$("html,body").animate({scrollTop: 0}, 0);
 });
 
 /*============ END OF RESET TO TOP OF PAGE AFTER REFRESH ============*/
